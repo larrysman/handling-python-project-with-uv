@@ -86,7 +86,7 @@ requires-python = ">=3.11"
 dependencies = []
 
 
-The 'main.py' is a default python scripts that only print 'Hello from name of your project'. It is just to ascertain that 'uv' is working and properly implemented on the project. The main.py can be modified.
+The 'main.py' is a default python scripts that only print 'Hello from uv-tutorial!'. It is just to ascertain that 'uv' is working and properly implemented on the project. The main.py can be modified.
 $ cat main.py
 output:
 def main():
@@ -113,7 +113,19 @@ wheels/
 
 
 The '.venv' is the default virtual environment folder that contains project's virtual environment, a Python environment that is isolated from the rest of your system. This is where 'uv' will install your project's dependencies.
-$ cat .venv
+$ cd .venv
+$ ls
+
+output:
+output:
+Name
+---------
+Lib
+Scripts
+.gitignore
+.lock
+CACHEDIR.TAG
+pyvenv.cfg
 
 
 The '.python-version' file contains the project's default Python version. This file tells 'uv' which Python version to use when creating the project's virtual environment.
