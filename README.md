@@ -22,18 +22,18 @@ Install `uv` with the official standalone installer both on `WINDOWS` and `MacOS
 ###### Windows
 From the terminal enter the code below
 ```bash
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+$ powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 ###### MacOS and LINUX
 From the terminal enter the code below
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
+$ curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
 ###### Restart or Enter the below commands
 ```bash
-cmd: set Path=C:\Users\COMPUTER_USERNAME\.local\bin;%Path%
-powershell: $env:Path = "C:\Users\Olanrewaju Adegoke\.local\bin;$env:Path"
+cmd: $ set Path=C:\Users\COMPUTER_USERNAME\.local\bin;%Path%
+powershell: $ $env:Path = "C:\Users\Olanrewaju Adegoke\.local\bin;$env:Path"
 ```
 
 ###### CHECK FOR THE `uv` INSTALLED VERSION
