@@ -33,7 +33,7 @@ $ curl -LsSf https://astral.sh/uv/install.sh | sh
 ###### Restart or Enter the below commands
 ```bash
 cmd: $ set Path=C:\Users\COMPUTER_USERNAME\.local\bin;%Path%
-powershell: $ $env:Path = "C:\Users\Olanrewaju Adegoke\.local\bin;$env:Path"
+powershell: $ $env:Path = "C:\Users\COMPUTER_USERNAME\.local\bin;$env:Path"
 ```
 
 ###### CHECK FOR THE `uv` INSTALLED VERSION
